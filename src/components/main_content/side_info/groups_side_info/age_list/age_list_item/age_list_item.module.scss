@@ -1,0 +1,14 @@
+.ageListItem {
+	display: flex;
+	column-gap: 16px;
+	align-items: center;
+	&:not(:last-child) {
+		margin-bottom: 12px;
+	}
+}
+.ageRange {
+	font-size: 12px;
+	color: #8c8988;
+	max-width: 44px;
+	width: 100%;
+}

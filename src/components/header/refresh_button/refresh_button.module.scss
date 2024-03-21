@@ -1,0 +1,15 @@
+.refreshButton {
+	font-weight: 600;
+	font-size: 14px;
+	padding: 10px 16px;
+	color: #CF7B5A;
+	transition: all 0.3s ease 0s;
+	border: 1px solid transparent;
+	border-radius: 16px;
+	@media (any-hover: hover){
+		&:hover{
+			border-color: #CF7B5A;
+		}
+	}
+}
+

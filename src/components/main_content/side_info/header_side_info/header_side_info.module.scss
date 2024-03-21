@@ -1,0 +1,8 @@
+.headerSideInfo {
+	font-size: 20px;
+	font-weight: 600;
+	align-self: stretch;
+	&:not(:last-child) {
+		margin-bottom: 24px;
+	}
+}

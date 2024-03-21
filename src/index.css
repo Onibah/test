@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Jura:300,regular,500,600,700);
+:root {
+	font-weight: 500;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+#root {
+	display: flex;
+	min-height: 100%;
+	flex-direction: column;
+}
+.wrapper {
+	flex: 1 1 100%;
+	display: flex;
+	flex-direction: column;
+}
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	height: 100%;
+	padding: 15px;
+}
+
+html {
+	font-size: 14px; /* по умолчанию */
+}
+
+body {
+	line-height: 1;
+	font-family: "Jura";
+	color: #dcd8d3;
+	background: #12141b;
+}
+
+button,
+label {
+	cursor: pointer;
+}
+
+input,
+button {
+	background: transparent;
+	color: #fff;
+}
+
+
